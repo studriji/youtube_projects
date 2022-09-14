@@ -27,9 +27,9 @@ for i in data_dict:
 import smtplib
 import ssl
 from email.message import EmailMessage
-email_sender = 'demoautoab@gmail.com'
+email_sender = ''
 email_password = '16 digit password'    
-email_receiver = 'studrijit@gmail.com'
+email_receiver = ''
 
 subject = 'Weather update'
 body = msg
