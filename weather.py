@@ -1,12 +1,12 @@
 import requests
 
 
-# api key = 23098c7fb74cc117919923648ca47833
+# api key = 
 # url for api = api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
 
 city = input('Enter the city : ')
 #city = "kolkata"
-url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=23098c7fb74cc117919923648ca47833'
+url = f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid='
 data = requests.get(url).json()
 
 data_dict = {
